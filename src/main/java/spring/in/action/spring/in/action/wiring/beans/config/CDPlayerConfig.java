@@ -3,9 +3,7 @@ package spring.in.action.spring.in.action.wiring.beans.config;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-import spring.in.action.spring.in.action.wiring.beans.soundsystem.SgtPepperss;
 
-@Configuration
 
 //Works only when all classes are in same package
 //@ComponentScan
@@ -23,8 +21,10 @@ import spring.in.action.spring.in.action.wiring.beans.soundsystem.SgtPepperss;
 //@ComponentScan(basePackageClasses= SgtPepperss.class)
 
 //Works for specfied classes
-@ComponentScan(basePackageClasses= {SgtPepperss.class})
+//@ComponentScan(basePackageClasses= {SgtPepperss.class})
 
+@Configuration
+@ComponentScan(basePackages= {"spring.in.action.spring.in.action.wiring"})
 public class CDPlayerConfig {
 
 }
