@@ -30,12 +30,12 @@
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.github.stefanbirkner/system-rules -->
-		<dependency>
+<!-- 		<dependency>
 			<groupId>com.github.stefanbirkner</groupId>
 			<artifactId>system-rules</artifactId>
 			<version>${junit.system-rules.version}</version>
 			<scope>test</scope>
-		</dependency>
+		</dependency> -->
 
 
 		<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->

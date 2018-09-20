@@ -24,7 +24,7 @@ import org.springframework.context.annotation.Configuration;
 //@ComponentScan(basePackageClasses= {SgtPepperss.class})
 
 @Configuration
-@ComponentScan(basePackages= {"spring.in.action.spring.in.action.wiring"})
+//@ComponentScan(basePackages= {"spring.in.action.spring.in.action.wiring"})
 public class CDPlayerConfig {
 
 }
